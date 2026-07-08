@@ -1,0 +1,17 @@
+print("=================usename limit attempt program==========")
+
+username ="artiborkar"
+attemps = 0
+
+while attemps < 3 :
+    user_username = input ("enter the username : ")
+
+    if user_username == username :
+        print("logged in successfully")
+        break
+    else:
+        print("please enter correct username.")
+    attemps += 1
+
+if attemps ==3 :
+    print("Account locked")
