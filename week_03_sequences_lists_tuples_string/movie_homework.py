@@ -9,5 +9,5 @@ print("========== Q1==============")
 movie = ["police wala gunda","pk","bhulbhulaya","zindat","bahubali"]
 
 
-
 print(movie[0:5:4])
+
