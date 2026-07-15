@@ -1,0 +1,31 @@
+student_data :{
+                "Arti" : {
+                            "python" :{"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                            "java"  : {"sem1":23,"sem":55,"sem3":75,"sem4":66},
+                            "c++" :{"sem1":42,"sem":85,"sem3":44,"sem4":16},
+                            "mysql": {"sem1":62,"sem":75,"sem3":45,"sem4":46},
+                         },
+
+                "Rohini" : {
+                                "python" :{"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                 "java"  : {"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                 "c++" :{"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                 "mysql": {"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                            },
+
+                "Shreya" : {
+                                "python" :{"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                "java"  : {"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                "c++" :{"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                "mysql": {"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                            },
+
+                "Diksha" : {
+                                "python" :{"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                "java"  : {"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                "c++" :{"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                                "mysql": {"sem1":52,"sem":85,"sem3":45,"sem4":56},
+                            }
+            }
+
+print(dict_dict)
