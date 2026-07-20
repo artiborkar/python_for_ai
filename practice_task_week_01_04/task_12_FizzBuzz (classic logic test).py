@@ -5,3 +5,34 @@
 
 print("=============FizzBuzz (classic logic test)===============")
 
+# for i in range(1,30):
+#     if i % 3 == 0 and i % 5 == 0 :
+#         print("FizzBuzz")
+#     if i % 3 == 0 :
+#         print("Fizz")
+#     if i % 5:
+#         print("Bizz")
+#     else:
+#         print(i)
+    
+
+# for num in range(1,30):
+#     if num % 3 == 0 and num % 5 == 0:
+#         print("FizzBuzz")
+#     elif num % 3 == 0:
+#         print("Fizz")
+#     elif num % 5 == 0:
+#         print("Buzz")
+#     else:
+#         print(num)
+
+
+for x in range(1,30):
+    if x % 3 == 0 and x % 5 == 0 :
+        print("FizzBuzz")
+        if x % 3 ==0 :
+            print("Fizz")
+            if x % 5 == 0 :
+                print("Buzz")
+    else:
+        print(x)

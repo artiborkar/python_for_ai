@@ -12,7 +12,11 @@
 
 print("=========Number Grid + Diagonal Sum (nested list)===========")
 
-grid = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+grid = [   
+        [1, 2, 3], 
+        [4, 5, 6], 
+        [7, 8, 9]
+        ]
 
 print(grid[0])
 print(grid[1])

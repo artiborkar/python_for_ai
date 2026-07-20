@@ -8,3 +8,12 @@
 
 print("============== Word Frequency Counter===========")
 
+paragraph = "I am a Agentic AI Engineer , and my work is to create a project code and"
+
+counts ={}
+
+print(paragraph.lower())
+
+print(paragraph.split())
+
+print(max(counts , key=counts.get))

@@ -9,12 +9,15 @@
 print("=========Sort Students by Marks (list of dicts)==========")
 
 dicts = [
-            {"name": "Asha", "marks": 85}, 
-            {"name": "Rohini", "marks": "90"} , 
+            {"name": "Asha", "marks": 82}, 
+            {"name": "Rohini", "marks": 90} , 
             {"name": "Shreya", "marks": 80} , 
             {"name": "Asha", "marks": 85}
         ] 
 
-sort_dict = sorted(dicts)
+sort_dict = sorted(dicts , key=lambda s : s["marks"],reverse=True)
 
 print(sort_dict)
+
+for key , index in enumerate (sort_dict, start=1):
+    print(key , index)

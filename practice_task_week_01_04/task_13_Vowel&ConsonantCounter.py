@@ -10,4 +10,10 @@ print("======Vowel & Consonant Counter========")
 
 sentance = input("Enter the Sentance : ")
 
-dict ={'a','e','i','o','u'}
+dict ={}
+
+count={}
+
+for vowel in sentance:
+    count.get(vowel)
+    print(count)

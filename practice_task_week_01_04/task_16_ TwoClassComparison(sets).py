@@ -14,14 +14,16 @@ java_students = {"Navneet","Diksha","Vaishnav","Arti","Sagar"}
 
 a = python_students & java_students
 
-print(a)
+print(f"dono lang seekhne wale {a}")
 
-print(python_students)
+b = python_students ^ java_students
+
+print(f"sirf python seekhne vale {b}")
 
 c = python_students | java_students 
 
-print(c)
+print(f"Total unique student {c}")
 
 d = python_students - java_students 
 
-print(d)
+print(f"sirf ek lang seekhne vale {d}")

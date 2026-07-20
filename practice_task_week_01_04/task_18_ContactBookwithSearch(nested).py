@@ -23,10 +23,14 @@ print(contacts)
 
 user = input("Enter the key Asha/Rahul: ")
 
-if user == contacts:
-    print(f"{contacts.items()}")
-else:
-    print("Contact Not Found")
+print(contacts.get("user"))
+
+print(contacts.get("user", "contacts not found"))
+
+# if user == contacts:
+#     print(f"{user.items()}")
+# else:
+#     print("Contact Not Found")
 
 # method 1
 # print(contacts.get("Asha"))

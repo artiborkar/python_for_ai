@@ -9,3 +9,16 @@
 print("======= Duplicate Remover (order preserve)========")
 
 nums = [3, 1, 2, 3, 4, 1, 5, 2]
+
+seen = set()
+
+for num in nums :
+    
+    num not in seen 
+    print(num.append(seen))
+
+# new_set = set(nums)
+
+# print(new_set)
+
+# print(nums)
