@@ -5,6 +5,5 @@
 total = 0
 for n in [1, 2, 3, 4]:
     total = total + n
-print(total)                   #blank
+print(total)                   
 
-#but print()include to for loop then the output is 1,3,6,10

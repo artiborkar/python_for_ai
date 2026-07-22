@@ -3,5 +3,5 @@
 
 result = ""
 for c in "hello":
-    result = c + result            #not clear
+    result = c + result            
 print(result)

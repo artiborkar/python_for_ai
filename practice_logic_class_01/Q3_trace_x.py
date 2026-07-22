@@ -4,4 +4,4 @@
 x = 20
 for i in range(4):
     x = x - 5
-print(x)                   #0 last output is print all output print then the print()inside the loop.
+print(x)                 
