@@ -1,4 +1,6 @@
 # create a dictionry.
+
+
 print("=============Q1..===========")
 # my_dict =  {
 #             "a" : 1,
@@ -95,6 +97,22 @@ print("=============Q6..===========")
 
 
 
-# update multiple items.
-print("=============Q6..===========")
 
+print("=============Q6.+===========")
+
+student = { "name" : "Arti",
+            "age" : 20, 
+            "city" : "Mandgaon"
+          }
+
+print(student["city"])
+
+del student["age"]
+print(student)
+
+student["name"]="Navneet"
+print(student)
+
+print("age" not in  student)
+
+print("name"in student)
