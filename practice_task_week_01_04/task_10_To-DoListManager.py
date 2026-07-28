@@ -57,5 +57,5 @@ while True:
 
 
 
-        # copy peast vala haii
+        # copy peast vala haii code
         
