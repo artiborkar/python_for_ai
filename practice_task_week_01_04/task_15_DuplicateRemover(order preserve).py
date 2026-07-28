@@ -14,8 +14,9 @@ seen = set()
 
 for num in nums :
     
-    num not in seen 
-    print(num.append(seen))
+    if num not in seen :
+        seen.add(num)
+        print(num)
 
 # new_set = set(nums)
 

@@ -7,14 +7,12 @@
 
 print("============Word & Character Counter==============")
 
-user = input("Write a one scentace:")
+user = input("Write a one scentace:").strip()
 
-print(user.split())
+print(len(user.split()))
 
-print(user.replace(" "," "))
+print(user.replace(" " , " "))
 
-print(len(user))
+
 
 print(user.upper())
-
-print(user.strip())

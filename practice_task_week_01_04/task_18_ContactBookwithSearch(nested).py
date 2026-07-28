@@ -15,27 +15,29 @@
 print("==========Contact Book with Search (nested dict)===========")
 
 contacts = {
-                "Asha":  {"phone": "98765", "city": "Mumbai"},
-                "Rahul": {"phone": "91234", "city": "Delhi"},
+                "Asha": 
+                 {
+                    "phone": "98765", 
+                 "city": "Mumbai"
+                 },
+
+                "Rahul":
+                 {
+                    "phone": "91234", 
+                    "city": "Delhi"
+                 }
             }
 
 print(contacts)
 
-user = input("Enter the key Asha/Rahul: ")
+user = input("Enter the contact name : ")
 
-print(contacts.get("user"))
+contact=(contacts.get(user))
 
-print(contacts.get("user", "contacts not found"))
+if contact:
+    print("Phone:", contact["phone"])
+    print("City:", contact["city"])
+else:
+    print("Contact Not Found")
 
-# if user == contacts:
-#     print(f"{user.items()}")
-# else:
-#     print("Contact Not Found")
-
-# method 1
-# print(contacts.get("Asha"))
-
-# print(contacts.get("Rahul"))
-
-# print(contacts.get("Arti"),"contact not found")
 

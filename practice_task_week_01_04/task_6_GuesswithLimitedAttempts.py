@@ -10,21 +10,29 @@
 print("=============Guess with Limited Attempts================")
 
 secret_number =  42
-attempt = 3
+attempt = 0
 
-user = int(input("Enter the Number : "))
 
-while attempt <= 3:
 
-    if secret_number == user :
+while attempt < 3:
+    user = int(input("Enter the Number : "))
+    attempt+=1
+
+    if user == secret_number :
         print("congratulations You won")
         break
         
-    elif secret_number <= user and secret_number >= user  :
-        print("Too high/Too low") 
-        break 
-
-else:
-    print("game over, number was 42")
+    elif user > secret_number :
+      
+        print("Too high") 
     
-    break
+    else:
+        print("Too low")
+
+if user != secret_number:
+    print("game over , number was 42")
+
+
+
+    
+

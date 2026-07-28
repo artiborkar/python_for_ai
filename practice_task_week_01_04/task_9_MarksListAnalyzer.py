@@ -34,4 +34,4 @@ count = 0
 for mark in marks:
     if mark >= 33:
         count += 1
-print(count)
+print(f"pass student {count}")
