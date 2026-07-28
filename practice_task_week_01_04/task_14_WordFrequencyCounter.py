@@ -8,12 +8,27 @@
 
 print("============== Word Frequency Counter===========")
 
-paragraph = "I am a Agentic AI Engineer , and my work is to create a project code and"
+paragraph = input("Enter a paragraph: ").lower()
 
-counts ={}
+words = paragraph.split()
 
-print(paragraph.lower())
+counts = {}
 
-print(paragraph.split())
+for word in words:
+    if word in counts:
+        counts[word] += 1
+    else:
+        counts[word] = 1
 
-print(max(counts , key=counts.get))
+most_common = max(counts, key=counts.get)
+
+print("Word Frequency:")
+for word, count in counts.items():
+    print(word, ":", count)
+
+print("Most Frequent Word:", most_common)
+print("Count:", counts[most_common])
+
+
+
+# copy peast code

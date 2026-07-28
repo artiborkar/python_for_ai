@@ -14,6 +14,11 @@ print("============Mini Data Cleaner (comprehensions — capstone)===========")
 
 raw = ["  Asha ", "RAHUL", "", "  priya  ", "Amit", "rahul  "]
 
-raw_com = [n.strip().lower() for n in raw if n.strip() — filter if n.strip()]
+raw_com = [n.strip().lower() for n in raw if n.strip()]
+
+unique = sorted(set(raw_com))
+
 
 print(raw_com)
+
+print(unique)

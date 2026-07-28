@@ -9,7 +9,7 @@
 print("=========Sort Students by Marks (list of dicts)==========")
 
 dicts = [
-            {"name": "Asha", "marks": 82}, 
+           {"name": "Asha", "marks": 82}, 
             {"name": "Rohini", "marks": 90} , 
             {"name": "Shreya", "marks": 80} , 
             {"name": "Asha", "marks": 85}

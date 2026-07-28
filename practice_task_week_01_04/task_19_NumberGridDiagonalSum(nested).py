@@ -18,10 +18,15 @@ grid = [
         [7, 8, 9]
         ]
 
-print(grid[0])
-print(grid[1])
-print(grid[2])
+print("Grid:")
 
-print(sum(grid))
-# for i in range(3):                          # incomplete
-#     print(grid[i][i])
+for row in grid:
+        for num in row:
+                print(num,end=" ")
+        print()
+sum = 0
+
+for i in range(3):
+        sum+=grid[i][i]
+
+print(f"sum of grid{sum}")

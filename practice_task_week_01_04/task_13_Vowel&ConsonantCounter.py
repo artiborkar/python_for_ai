@@ -8,12 +8,18 @@
 
 print("======Vowel & Consonant Counter========")
 
-sentance = input("Enter the Sentance : ")
+sentance = input("Enter the Sentance : ").title()
 
-dict ={}
+dict = " "
+count = " "
 
-count={}
+for word in sentance:
+    if word in "aeiou":
+       dict+=word
+       
+    elif "aeiou" != word:
+        count+=word
+        
+print(f"Vowel is : {dict}") 
 
-for vowel in sentance:
-    count.get(vowel)
-    print(count)
+print(f"consonants is : {count}") 
