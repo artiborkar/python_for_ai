@@ -7,7 +7,7 @@
 # Concepts: while True, match/case (ya if/elif), list .append()/.remove(), break
 # Hint: remove karte waqt check karo item list mein hai ya nahi (warna crash), if item in todos:.
 
-print("===============To-Do List Manager (menu loop)============")
+print("==============To-Do List Manager (menu loop)============")
 
 todos = []
 

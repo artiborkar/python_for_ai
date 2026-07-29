@@ -4,7 +4,7 @@
 # User se ek word lo. Use ulta print karo, aur batao woh palindrome hai ya nahi 
 # (case ignore karo — "Madam" bhi palindrome hai).
 
-print("============ Reverse & Palindrome Check=============")
+print("=========== Reverse & Palindrome Check=============")
 
 user = input("Enter the word :")
 

@@ -6,7 +6,7 @@
 # Concepts: loop over string, dict, .get() ya in check, .lower()
 # Hint: counts[ch] = counts.get(ch, 0) + 1 — yeh missing key ko safely handle karta hai.
 
-print("======Vowel & Consonant Counter========")
+print("=======Vowel & Consonant Counter========")
 
 sentance = input("Enter the Sentance : ").title()
 

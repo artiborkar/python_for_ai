@@ -19,4 +19,4 @@ if total > 1000:
 else:
     print(f"Final Amount : {total:.2f}")
 
-print("==========Thank you==========")
+print("==========Thank you=========")

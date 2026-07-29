@@ -6,7 +6,7 @@
 # Concepts: set for membership, list, for loop, .append()
 # Hint: ek seen = set() rakho. Har num par: agar num not in seen, toh result mein append karo aur seen.add(num).
 
-print("======= Duplicate Remover (order preserve)========")
+print("======== Duplicate Remover (order preserve)========")
 
 nums = [3, 1, 2, 3, 4, 1, 5, 2]
 

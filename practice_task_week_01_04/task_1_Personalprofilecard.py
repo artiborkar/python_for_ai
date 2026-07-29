@@ -29,4 +29,4 @@ print(f" City  : {user_City.title()}")
 
 print(f" favourite_subject : {favourite_subject.title()}")
 
-print("=============================================")
+print("============================================")

@@ -5,7 +5,7 @@
 #  unpacking se print karo. Phir sabse zyada marks waale ka naam batao.
 
 
-print("==========Student Records (list of tuples)============")
+print("===========Student Records (list of tuples)============")
 
 my_list =  [("Asha", 85), ("Rahul", 92), ("Priya", 78)]
 

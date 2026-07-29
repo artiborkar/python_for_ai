@@ -7,7 +7,7 @@
 # Concepts: while, break, counter, if/elif/else
 # Hint: attempts counter rakho, while attempts < 3. Sahi guess par break.
 
-print("=============Guess with Limited Attempts================")
+print("============Guess with Limited Attempts================")
 
 secret_number =  42
 attempt = 0

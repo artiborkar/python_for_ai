@@ -10,7 +10,7 @@
 # Hint: diagonal ke liye ek hi index use karo: grid[i][i] for i in range(3).
 
 
-print("=========Number Grid + Diagonal Sum (nested list)===========")
+print("==========Number Grid + Diagonal Sum (nested list)===========")
 
 grid = [   
         [1, 2, 3], 
