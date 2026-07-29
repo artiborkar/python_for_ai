@@ -10,7 +10,7 @@
 # Hint: [n.strip().lower() for n in raw if n.strip()] — filter if n.strip() khaali strings ko hata deta hai.
 
 
-print("============Mini Data Cleaner (comprehensions — capstone)===========")
+print("=============Mini Data Cleaner (comprehensions — capstone)===========")
 
 raw = ["  Asha ", "RAHUL", "", "  priya  ", "Amit", "rahul  "]
 

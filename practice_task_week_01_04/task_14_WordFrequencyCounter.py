@@ -6,7 +6,7 @@
 # Concepts: .lower(), .split(), dict counting, max(..., key=...)
 # Hint: max(counts, key=counts.get) sabse badi value waali key deta hai.
 
-print("============== Word Frequency Counter===========")
+print("=============== Word Frequency Counter===========")
 
 paragraph = input("Enter a paragraph: ").lower()
 

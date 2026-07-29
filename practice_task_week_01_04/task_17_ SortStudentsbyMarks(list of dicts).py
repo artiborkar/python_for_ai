@@ -6,7 +6,7 @@
 # Concepts: sorted(key=lambda ...), reverse=True, enumerate, nested access
 # Hint: sorted(students, key=lambda s: s["marks"], reverse=True). Rank ke liye enumerate(..., start=1).
 
-print("=========Sort Students by Marks (list of dicts)==========")
+print("==========Sort Students by Marks (list of dicts)==========")
 
 dicts = [
            {"name": "Asha", "marks": 82}, 

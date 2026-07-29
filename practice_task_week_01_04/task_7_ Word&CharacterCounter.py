@@ -5,7 +5,7 @@
 # Concepts: .split(), .replace(), len(), .upper(), .strip()
 # Hint: spaces hatane ke liye .replace(" ", "") phir len().
 
-print("============Word & Character Counter==============")
+print("===========Word & Character Counter==============")
 
 user = input("Write a one scentace:").strip()
 

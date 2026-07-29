@@ -2,7 +2,7 @@
 
 # User se ek number lo. Batao woh positive/negative/zero hai, AUR even/odd hai (zero ke liye even/odd mat batao
 
-print("===Even ya Odd + Positive/Negative===")
+print("====Even ya Odd + Positive/Negative===")
 
 num = int(input("Enter the Number :"))
 

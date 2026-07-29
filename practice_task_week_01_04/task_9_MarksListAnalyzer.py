@@ -7,7 +7,7 @@
 # Hint: highest = marks[0] se shuru karo, phir loop mein if m > highest: highest = m.
 
 
-print("==============Marks List Analyzer===========")
+print("===============Marks List Analyzer===========")
 
 marks = [45, 78, 92, 33, 88, 20, 67] 
 

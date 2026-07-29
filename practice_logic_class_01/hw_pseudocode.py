@@ -580,9 +580,47 @@ print("===========================")
 
 # Given: word = "hello"   →  "olleh"
 #  1=restate= A word is given. Build and print its reverse (accumulator = ""),"olleh"
-# 2=example= given marks = [40, 55, 70, 90] then check loop
-# 3=pseudcode=1.marks = [40, 55, 70, 90] varable 2 is total=0
-#             2.then for excuted
-#             3.print
+# 2=example= 1st  var is word =hello and 2nd var is count=" "
+# 3=pseudcode=1.write a 1st var is word=hello 2nd is count=""
+#             2.for letter in word:
+#             3.count = letter+count
+#             3.print count
 #             
 # step5=translates
+word = "hello"
+count = " "
+for letter in word:
+    count=letter+count
+print(count)
+
+# step 6 dry run
+# step       word       count     letter
+# 1          hello        " "        
+# f1                                h
+#                          "h"
+# f2                                 e
+#                           "eh"
+# f3                                  l
+#                           "leh"
+# f4                                  l
+#                         "lleh"      
+# f5                                  o
+#                        "olleh"      
+
+print("==========================")
+
+
+# Q19
+# EN: A number n is given. Print its multiplication table from 1 to 10. HI: Ek number n diya hai. 1 se 10 tak uska table print karo.
+
+# Given: n = 7   →  7 x 1 = 7 ... 7 x 10 = 70
+
+# step 1 restate = Print its multiplication table from 1 to 10 .output 1,20,30,40.....100.
+# step 2 example =n = 7 jaise hame ek variable diya hai uska hame table pprint karna hai 10 line tak
+# step 3 pseudocode = 1
+# 
+# 
+# step 5 = translate=
+n = 7
+for num in range(1,11):
+    print (n*num)  

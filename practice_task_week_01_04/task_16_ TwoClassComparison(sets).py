@@ -6,7 +6,7 @@
 # Concepts: set operations &, -, |, symmetric difference ^
 # Hint: "sirf ek language" = python ^ java (symmetric difference).
 
-print("===========Two Class Comparison (sets)=============")
+print("============Two Class Comparison (sets)=============")
 
 python_students = {"Arti","Rohini","Shreya","Diksha","Pooja"}
 

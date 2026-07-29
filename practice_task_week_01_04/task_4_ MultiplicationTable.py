@@ -4,7 +4,7 @@
 # User se ek number n aur ek limit k lo. n ka table 1 se k tak print karo (loop se).
 
 
-print("====== Multiplication Table (clean)======")
+print("===== Multiplication Table (clean)======")
 
 n = int(input("Enter the Table Number: "))
 
