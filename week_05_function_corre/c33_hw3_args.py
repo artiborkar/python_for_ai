@@ -3,8 +3,13 @@
 def greet_all(*names):
 
     for word in names:
-        return word
+    
+        print (f"HELLO {word.upper()}")
 
-print(greet_all("Hello NAME"))
+greet_all("Arti","Navneet")
+
+
+greet_all("xyz")
+
 
 
