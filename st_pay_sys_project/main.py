@@ -3,9 +3,6 @@ from simulate_process_payment import simulate_bank_api
 from simulate_process_payment import process_payment_with_retry
 
 
-class InvaliedMarsError(Exception):
-    """Raised when the marks are not in between 0-100"""
-    pass
 
 class InsufficientBalanceError(Exception):
     """raise when the balance is less than exam fee"""
@@ -13,8 +10,6 @@ class InsufficientBalanceError(Exception):
 
 def main():
 
-    if __name__ == "__main__" :
-        main()
 
 
     print("="*50)
@@ -65,3 +60,5 @@ def main():
             print("🔒Session Closed securely. Thank You for using our system")
 
 
+if __name__ == "__main__" :
+        main()

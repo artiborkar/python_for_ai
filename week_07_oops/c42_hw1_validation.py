@@ -10,17 +10,15 @@ class BankAccount:
         if amount <= 0 :
             return print("Invalied Amount")
 
-        if amount > self._balance:
-            return print("Insufficent Balance")
         self._balance+=amount
         return print(f"Amount is {self._balance}")
 
 
-    def withdrow(self,amount):
+    def withdraw(self,amount):
         if amount <= 0 :
             return print("Invalied Amount")
 
-        if amount < self._balance:
+        if amount > self._balance:
             return print("Insufficent Balance")
         self._balance-=amount
         return print(f"Amount is {self._balance}")
@@ -33,7 +31,7 @@ bank_amount_obj = BankAccount(5200)
 
 bank_amount_obj.get_balance()
 
-bank_amount_obj.withdrow(-200)
+bank_amount_obj.withdraw(-200)
 
 # bank_amount_obj.deposite(2000)
 
