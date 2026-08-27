@@ -1,3 +1,7 @@
+import random
+import time
+
+
 def simulate_bank_api(amount:float)->str:
     """simulate bank API payment processing , 50 % chance of sucess, 50% chance of failure"""
 

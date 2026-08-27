@@ -1,4 +1,8 @@
 
+class InvaliedMarsError(Exception):
+    """Raised when the marks are not in between 0-100"""
+    pass
+
 
 def get_valid_marks(subject_name: str)-> float:
 
